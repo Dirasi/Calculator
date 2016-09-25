@@ -30,7 +30,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_below="@id/result_id"
-            android:onClick="btn7Clicked"
+            android:onClick="button7Clicked"
             android:text="7" />
 
         <Button
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/result_id"
             android:layout_toRightOf="@id/Btn7_id"
-            android:onClick="btn8Clicked"
+            android:onClick="button8Clicked"
             android:text="8" />
 
         <Button
@@ -50,15 +50,15 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/result_id"
             android:layout_toRightOf="@id/Btn8_id"
-            android:onClick="btn9Clicked"
+            android:onClick="button9Clicked"
             android:text="9" />
         <Button
             android:id="@+id/Btndivide_id"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:onClick="btndivideClicked"
-            android:text="/" />
+            android:onClick="buttondivideClicked"
+            android:text=":" />
 
         <Button
             android:layout_width="0dp"
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/result_id"
             android:layout_toRightOf="@id/Btn9_id"
-            android:onClick="btnclearClicked"
+            android:onClick="buttonclearClicked"
             android:text="cc" />
     </LinearLayout>
     <LinearLayout
@@ -87,7 +87,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_below="@id/Btn7_id"
-            android:onClick="btn4Clicked"
+            android:onClick="button4Clicked"
             android:text="4" />
 
         <Button
@@ -97,7 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/Btn8_id"
             android:layout_toRightOf="@id/Btn4_id"
-            android:onClick="btn5Clicked"
+            android:onClick="button5Clicked"
             android:text="5" />
 
         <Button
@@ -107,14 +107,14 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/Btn9_id"
             android:layout_toRightOf="@id/Btn5_id"
-            android:onClick="btn6Clicked"
+            android:onClick="button6Clicked"
             android:text="6" />
         <Button
             android:id="@+id/Btnmulti_id"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:onClick="btnmultiClicked"
+            android:onClick="buttonmultiClicked"
             android:text="*" />
 
         <Button
@@ -140,7 +140,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:onClick="btn1Clicked"
+            android:onClick="button1Clicked"
             android:text="1" />
 
         <Button
@@ -148,7 +148,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:onClick="btn2Clicked"
+            android:onClick="button2Clicked"
             android:text="2" />
 
         <Button
@@ -156,7 +156,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:onClick="btn3Clicked"
+            android:onClick="button3Clicked"
             android:text="3" />
 
         <Button
@@ -164,7 +164,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:onClick="btnminusClicked"
+            android:onClick="buttonminusClicked"
             android:text="-" />
         <Button
             android:layout_width="0dp"
@@ -180,7 +180,7 @@
             android:layout_height="wrap_content"
             android:text="@string/sqrt_root"
             android:id="@+id/buttonAkar"
-            android:onClick="btnsqrt"
+            android:onClick="buttonsqrt"
             android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
@@ -192,12 +192,12 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:onClick="btn2Clicked"
+            android:onClick="button0Clicked"
             android:text="0" />
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:onClick="btndec"
+            android:onClick="buttondec"
             android:id="@+id/dot"
             android:text="."
             android:layout_weight="1" />
@@ -206,7 +206,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="%"
-            android:onClick="btnpercent"
+            android:onClick="buttonpercent"
             android:id="@+id/persen"
             android:layout_weight="1" />
 
@@ -215,7 +215,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:onClick="btnplusClicked"
+            android:onClick="buttonplusClicked"
             android:text="+" />
 
         <Button
@@ -223,7 +223,7 @@
             android:layout_width="0dp"
             android:layout_weight="2"
             android:layout_height="wrap_content"
-            android:onClick="btnequalClicked"
+            android:onClick="buttonequalClicked"
             android:text="=" />
     </LinearLayout>
 
