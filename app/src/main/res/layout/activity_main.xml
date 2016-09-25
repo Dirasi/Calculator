@@ -18,12 +18,14 @@
             android:layout_width="match_parent"
             android:gravity="end"
             android:maxLength="9"
-            android:layout_height="70dp" />
+            android:layout_height="70dp"
+            android:background="#a0e8f9" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <Button
             android:id="@+id/Btn7_id"
             android:layout_width="0dp"
@@ -31,7 +33,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/result_id"
             android:onClick="button7Clicked"
-            android:text="7" />
+            android:text="7"
+            android:background="#b2b1b1"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/Btn8_id"
@@ -41,7 +45,9 @@
             android:layout_below="@id/result_id"
             android:layout_toRightOf="@id/Btn7_id"
             android:onClick="button8Clicked"
-            android:text="8" />
+            android:text="8"
+            android:background="#b2b1b1"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/Btn9_id"
@@ -51,14 +57,18 @@
             android:layout_below="@id/result_id"
             android:layout_toRightOf="@id/Btn8_id"
             android:onClick="button9Clicked"
-            android:text="9" />
+            android:text="9"
+            android:background="#b2b1b1"
+            android:textStyle="bold"/>
+
         <Button
             android:id="@+id/Btndivide_id"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:onClick="buttondivideClicked"
-            android:text=":" />
+            android:text=":"
+            android:background="#d8d7d7" />
 
         <Button
             android:layout_width="0dp"
@@ -66,7 +76,9 @@
             android:onClick="backspace"
             android:text="@string/backspace"
             android:id="@+id/backspace"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="#e8e5e5"/>
+
         <Button
             android:id="@+id/Btnclear_id"
             android:layout_width="0dp"
@@ -75,7 +87,9 @@
             android:layout_below="@id/result_id"
             android:layout_toRightOf="@id/Btn9_id"
             android:onClick="buttonclearClicked"
-            android:text="cc" />
+            android:text="cc"
+            android:background="#d8d7d7"/>
+
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -88,7 +102,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/Btn7_id"
             android:onClick="button4Clicked"
-            android:text="4" />
+            android:text="4"
+            android:background="#b2b1b1"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/Btn5_id"
@@ -98,7 +114,9 @@
             android:layout_below="@id/Btn8_id"
             android:layout_toRightOf="@id/Btn4_id"
             android:onClick="button5Clicked"
-            android:text="5" />
+            android:text="5"
+            android:background="#b2b1b1"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/Btn6_id"
@@ -108,28 +126,33 @@
             android:layout_below="@id/Btn9_id"
             android:layout_toRightOf="@id/Btn5_id"
             android:onClick="button6Clicked"
-            android:text="6" />
+            android:text="6"
+            android:background="#b2b1b1"
+            android:textStyle="bold"/>
         <Button
             android:id="@+id/Btnmulti_id"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:onClick="buttonmultiClicked"
-            android:text="*" />
+            android:text="*"
+            android:background="#e8e5e5"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="("
             android:id="@+id/open"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="#d8d7d7"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text=")"
             android:id="@+id/close"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="#e8e5e5"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -141,7 +164,9 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:onClick="button1Clicked"
-            android:text="1" />
+            android:text="1"
+            android:background="#b2b1b1"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/Btn2_id"
@@ -149,7 +174,9 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:onClick="button2Clicked"
-            android:text="2" />
+            android:text="2"
+            android:background="#b2b1b1"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/Btn3_id"
@@ -157,7 +184,9 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:onClick="button3Clicked"
-            android:text="3" />
+            android:text="3"
+            android:background="#b2b1b1"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/Btnminus_id"
@@ -165,7 +194,8 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:onClick="buttonminusClicked"
-            android:text="-" />
+            android:text="-"
+            android:background="#d8d7d7"/>
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -173,7 +203,8 @@
             android:textAllCaps="false"
             android:onClick="power"
             android:id="@+id/power"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="#e8e5e5"/>
 
         <Button
             android:layout_width="0dp"
@@ -181,7 +212,8 @@
             android:text="@string/sqrt_root"
             android:id="@+id/buttonAkar"
             android:onClick="buttonsqrt"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="#d8d7d7"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -193,14 +225,17 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:onClick="button0Clicked"
-            android:text="0" />
+            android:text="0"
+            android:background="#b2b1b1"
+            android:textStyle="bold"/>
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:onClick="buttondec"
             android:id="@+id/dot"
             android:text="."
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="#e8e5e5"/>
 
         <Button
             android:layout_width="0dp"
@@ -208,7 +243,8 @@
             android:text="%"
             android:onClick="buttonpercent"
             android:id="@+id/persen"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="#d8d7d7" />
 
         <Button
             android:id="@+id/Btnplus_id"
@@ -216,7 +252,8 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:onClick="buttonplusClicked"
-            android:text="+" />
+            android:text="+"
+            android:background="#e8e5e5"/>
 
         <Button
             android:id="@+id/Btnequal_id"
@@ -224,7 +261,8 @@
             android:layout_weight="2"
             android:layout_height="wrap_content"
             android:onClick="buttonequalClicked"
-            android:text="=" />
+            android:text="="
+            android:background="#9cc4f1"/>
     </LinearLayout>
 
 </LinearLayout>
